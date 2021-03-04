@@ -1,0 +1,122 @@
+.body {
+    font-size: 14px;
+    color:black;
+    background-color: white;
+    letter-spacing: 1px;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.slides-navigation {
+    z-index: 6;
+}
+
+.slides-navigation .prev,
+.slides-navigation .next {
+    width: 47px;
+    height: 47px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slides-navigation a.prev {
+    left: 20px;
+    background-image: url(../imgs/icons/previous.png);
+}
+
+.slides-navigation a.next {
+    right: 20px;
+    background-image: url(../imgs/icons/next.png);
+
+}
+
+.titleMessage {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    top: 50%;
+    z-index: 5;
+    text-align: center;
+    margin-top: -125px;
+}
+
+.titleMessage .heading p{
+    color: white;
+    text-shadow: 0 2px 5px rgb(0 0 0 / 40%);
+    font-weight: 200;
+    letter-spacing: 5px;
+}
+
+.titleMessage .heading .main {
+    font-size: 50px;
+}
+
+.titleMessage .heading .sub{
+    font-size: 30px;
+}
+
+.section {
+    padding: 100px 0;
+}
+
+.aboutImage {
+    max-width: 100%;
+}
+
+.skillSection,
+.contactSection {
+    background-color: #2d2115;
+    color: white;
+}
+
+.skill {
+    text-align: center;
+    margin-left: 10px;
+}
+
+.chart {
+    position: relative;
+    width: 152px;
+    height: 152px;
+    display: inline-block;
+    text-align: center;
+}
+
+.chart canvas{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.chart .percent{
+    color: white;
+    line-height: 152px;
+    display: inline-block;
+    font-size: 35px;
+}
+
+.chart .percent:after {
+    content: '%';
+}
+
+.contactButton {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 60px;
+    background: #917108;
+}
+
+.contactButton:hover {
+    text-decoration: none;
+    color: black;
+    background: #1da09c;
+}
